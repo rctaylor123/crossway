@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&family=Source+Sans+Pro&display=swap');
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "layout";
+
+body {
+  background: rgba(0, 0, 0, .85) url(../images/sunrise.jpg) no-repeat center center fixed;
+  background-blend-mode: darken;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-light {
+  .navbar-brand {
+    color: white;
+
+    &:hover {
+      color: darkgray;
+    }
+  }
+  .navbar-nav {
+    .nav-link {
+      color: lightgray;
+
+      &:hover {
+        color: darkgray;
+      }
+    }
+  }
+}
+
+.black-text {
+  color: black;
+}
+
+.contact-form {
+  text-align: left;
+
+  textarea {
+    height: 100px;
+  }
+}
