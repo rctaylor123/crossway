@@ -11,9 +11,9 @@ const ContactPage = () => (
     {/* <Seo title="Contact Us" /> */}
     <Card className="black-text">
       <Card.Body>
-        <h1>Contact us somehow</h1>
+        <h1>Contact Us</h1>
         <p>Fill out the form below and someone will get back to you.</p>
-        <p>You can also <a href="https://facebook.com">find us on Facebook!</a></p>
+        <p>You can also <a href="https://facebook.com/crosswaycelina">find us on Facebook!</a></p>
 
         <ContactUsForm></ContactUsForm>
       </Card.Body>

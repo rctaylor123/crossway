@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "crossway-coming-soon",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple coming soon announcement site - built with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ryan Taylor <rctaylor123@gmail.com>",
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
     "bootstrap-icons": "^1.5.0",
     "gatsby": "^3.8.1",
