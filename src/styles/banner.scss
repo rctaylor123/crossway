@@ -1,4 +1,24 @@
-.brand {
-    font-family: 'Sora', sans-serif;
-    font-size: 64px;
+.banner {
+    font-family: 'Karla', sans-serif;
+
+    .brand {
+        font-size: 90px;
+        text-transform: uppercase;
+        padding-bottom: 50px;
+
+        .sub-brand {
+            font-size: 50px;
+        }
+
+        .separator {
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    }
+
+    .coming-soon {
+        font-size: 20px;
+    }
 }

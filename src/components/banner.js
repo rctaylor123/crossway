@@ -13,10 +13,18 @@ const Banner = () => {
         <Container>
           <Row>
             <Col>
-                <h3 className="brand">
-                  Crossway Church of Christ
-                </h3>
-                <h3>Coming to Celina early 2022!</h3>
+                <div className="brand">
+                  <div>
+                    Crossway
+                  </div>
+                  <hr className="separator" />
+                  <div className="sub-brand">
+                    Church of Christ
+                  </div>
+                </div>
+                <div className="coming-soon">
+                  Coming to Celina early 2022!
+                </div>
             </Col>
           </Row>
         </Container>
