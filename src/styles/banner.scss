@@ -1,10 +1,14 @@
 .banner {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Mulish', sans-serif;
 
     .brand {
         font-size: 90px;
         text-transform: uppercase;
         padding-bottom: 50px;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 60px;
+          }
 
         .sub-brand {
             font-size: 50px;
