@@ -1,9 +1,16 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `Crossway Church of Christ`,
     description: `Placeholder website for Crossway.`,
     author: `Ryan Taylor`,
     siteUrl: `https://crosswaycelina.com`,
+  },
+  flags: {
+    DEV_SSR: false,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
