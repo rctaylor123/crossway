@@ -5,6 +5,9 @@ module.exports = {
     author: `Ryan Taylor`,
     siteUrl: `https://crosswaycelina.com`,
   },
+  flags: {
+    DEV_SSR: false,
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
