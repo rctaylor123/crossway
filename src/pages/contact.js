@@ -8,7 +8,7 @@ import Card from "react-bootstrap/Card";
 
 const ContactPage = () => (
   <Layout pageInfo="contact">
-    {/* <Seo title="Contact Us" /> */}
+    <Seo title="Contact Us" />
     <Card className="black-text">
       <Card.Body>
         <h1>Contact Us</h1>
