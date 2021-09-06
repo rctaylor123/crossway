@@ -2,6 +2,18 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import MapMarker from './mapMarker';
 
+function mapOptionsCreator(map) {
+  return {
+    minZoom: 10,
+    maxZoom: 18,
+    draggable: false,
+    rotateControl: false,
+    scaleControl: false,
+    streetViewControl: false,
+    panControl: false,
+  }
+}
+
 class CrosswayMap extends Component {
   static defaultProps = {
     center: {
@@ -20,6 +32,7 @@ class CrosswayMap extends Component {
           bootstrapURLKeys={{ key: `${process.env.GATSBY_MAPS_API_KEY}` }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
+          options={mapOptionsCreator}
         >
           <MapMarker
             lat={33.298101}
