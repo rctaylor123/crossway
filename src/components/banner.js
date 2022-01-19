@@ -22,8 +22,8 @@ const Banner = () => {
                     Church of Christ
                   </div>
                 </div>
-                <div className="coming-soon">
-                  Coming to Celina early 2022!
+                <div className="meeting-time">
+                  Sundays at 9AM
                 </div>
             </Col>
           </Row>
