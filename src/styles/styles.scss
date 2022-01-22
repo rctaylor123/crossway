@@ -5,7 +5,7 @@
 @import "layout";
 
 body {
-  background: rgba(0, 0, 0, .75) url(../images/sunrise.jpg) no-repeat center center fixed;
+  background: rgba(0, 0, 0, .75) url(../images/sunrise-medium.jpg) no-repeat center center fixed;
   background-blend-mode: darken;
   background-size: cover;
   color: white;
@@ -25,10 +25,17 @@ body {
     .nav-link {
       color: lightgray;
 
+      &.active {
+        color: white;
+      }
+
       &:hover {
         color: darkgray;
       }
     }
+  }
+  .navbar-toggler {
+    background-color: darkgray;
   }
 }
 

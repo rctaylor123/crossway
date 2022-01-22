@@ -38,7 +38,7 @@ const Layout = ({ children, pageInfo }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Crossway Church of Christ
+          Crossway Church of Christ
         </footer>
       </div>
     </>
