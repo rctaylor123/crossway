@@ -23,7 +23,13 @@ const Banner = () => {
                   </div>
                 </div>
                 <div className="meeting-time">
-                  Sundays at 9AM
+                <p>
+                  Our worship time will start at 10:00 a.m. on December 25, 2022 and January 1, 2023.<br/>
+                  We will also not have Bible Classes.
+                </p>
+                <p>
+                  Our normal 9:00 a.m. start time will resume on January 8, 2023.
+                </p>
                 </div>
             </Col>
           </Row>
