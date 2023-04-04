@@ -23,7 +23,9 @@ const Banner = () => {
                   </div>
                 </div>
                 <div className="meeting-time">
-                  Sundays at 9AM
+                    8:15 - First Service<br/>
+                    9:45 - Classes For All Ages<br/>
+                    10:45 - Second Service
                 </div>
             </Col>
           </Row>
